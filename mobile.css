@@ -1,0 +1,160 @@
+@media (max-width: 480px) {
+  html,
+  body {
+    overflow-x: hidden;
+    width: 100%;
+  }
+  nav {
+    max-width: 100dvw;
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+  }
+  nav a {
+    font-size: 0.6rem;
+  }
+
+  #navLogo {
+    height: 30px;
+    margin-top: 4%;
+    margin-left: 3%;
+  }
+  #navLinks {
+    margin: 0%;
+    text-align: center;
+  }
+
+  #hero-content h1 {
+    font-size: 1.5rem;
+    width: 60dvw;
+    margin-bottom: 0%;
+  }
+
+  #hero {
+    background: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.2)
+      ),
+      url("./Images/hero.jpg");
+    max-width: 100dvw;
+    max-height: 20dvh;
+    background-size: cover;
+    padding: 2%;
+  }
+
+  #hero-content p {
+    font-size: 0.6rem;
+    width: 60dvw;
+    padding-left: 0%;
+  }
+  #CTA {
+    display: flex;
+    flex-direction: row;
+  }
+  #CTA a {
+    font-size: 0.6rem;
+    width: 60dvw;
+  }
+  #welcome {
+    margin: 0%;
+    margin-top: 20%;
+    height: 45%;
+  }
+  #intro-content {
+    color: white;
+    text-align: center;
+    height: auto;
+    margin-top: 15%;
+  }
+  #intro {
+    height: 30dvh;
+    display: flex;
+  }
+
+  #intro-content h3 {
+    font-size: 1rem;
+    width: 60dvw;
+    margin-top: 15%;
+  }
+  #intro-content p {
+    font-size: 0.5rem;
+    width: 60dvw;
+  }
+
+  #info {
+    margin: 0%;
+    margin-left: 20%;
+  }
+
+  #menu-intro {
+    height: 25dvh;
+    margin-top: 0%;
+  }
+  #menu-item {
+    margin-top: 10%;
+  }
+  #menu-description h3 {
+    font-size: 1.2rem;
+  }
+  #menu-description p {
+    font-size: 0.5rem;
+  }
+  .menu-btn {
+    font-size: 0.5rem;
+  }
+
+  #opening-hours {
+    height: 25dvh;
+  }
+  #opening-hours h3 {
+    font-size: 1.5rem;
+  }
+  #opening-hours p {
+    font-size: 0.5rem;
+  }
+
+  #contact-section {
+    height: 25dvh;
+    margin-bottom: 70%;
+  }
+  #contact-form {
+    margin-top: 30%;
+  }
+  #map-pin {
+    height: 25%;
+  }
+  #addh6 {
+    font-size: 0.8rem;
+  }
+  #addp {
+    font-size: 0.5rem;
+  }
+  footer {
+    width: 80dvw;
+  }
+  footer h5 {
+    font-size: 0.8rem;
+  }
+  footer p {
+    font-size: 0.4rem;
+  }
+  footer h6 {
+    font-size: 0.6rem;
+  }
+  #contact-btn {
+    font-size: 0.4rem;
+    padding: 10%;
+  }
+  #pin {
+    height: 10%;
+  }
+
+  #grid {
+    width: 30dvw;
+  }
+  #footerLogo {
+    display: block;
+    margin-left: 55%;
+  }
+}

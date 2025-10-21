@@ -1,0 +1,386 @@
+body {
+  background-color: black;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  margin: 0px;
+  overflow-x: hidden;
+}
+:root {
+  --primary-color: #000000;
+  --secondary-color: #2f5904;
+  --accent-color: #122603;
+}
+/* Nav */
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  font-size: 1.2em;
+}
+#navLogo {
+  max-width: 6%;
+  margin-left: 2%;
+  margin-top: 1%;
+}
+
+#navLinks {
+  padding: 20px;
+  margin-top: 15px;
+}
+
+#home:hover {
+  color: var(--secondary-color);
+}
+
+#about:hover {
+  color: var(--secondary-color);
+}
+
+#contact {
+  background-color: var(--secondary-color);
+  border-radius: 5px;
+}
+
+#contact:hover {
+  background-color: var(--accent-color);
+}
+
+.active {
+  color: var(--secondary-color);
+}
+
+/* Hero section */
+#hero {
+  height: 100dvh;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)),
+    url("./Images/hero.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 50px;
+  color: white;
+}
+
+#hero-content {
+  max-width: 40%;
+}
+
+/* Optional: style headings and paragraph */
+#hero-content h1 {
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+
+#hero-content p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+#hero h1 {
+  font-family: "Bebas Neue", Arial, Helvetica, sans-serif;
+}
+
+#CTA {
+  padding: 5%;
+  color: white;
+  text-decoration: none;
+}
+#CTA a {
+  padding: 5%;
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+#hero-contact {
+  background-color: var(--secondary-color);
+  border-radius: 5px;
+}
+
+#hero-contact:hover {
+  background-color: var(--accent-color);
+}
+#hero-about:hover {
+  color: var(--secondary-color);
+}
+
+/* Intro */
+
+#intro {
+  display: flex;
+  flex-direction: row;
+}
+#intro h3 {
+  font-size: 3rem;
+  margin: 10px;
+}
+#intro p {
+  font-size: 1.4rem;
+}
+#welcome {
+  max-width: 40dvw;
+  max-height: 40dvh;
+  margin: 5%;
+}
+
+#intro-content {
+  color: white;
+  margin-top: 5%;
+  margin-right: 5%;
+  width: 50dvw;
+  height: 30dvh;
+}
+
+#intro-content h3 {
+  font-size: 2.5rem;
+}
+#intro-content p {
+  font-size: 1.5rem;
+}
+
+#images {
+  display: flex;
+  flex-direction: row;
+}
+#image1 {
+  max-width: 50dvw;
+}
+#image2 {
+  max-width: 50dvw;
+}
+
+/* About Page */
+/* menu section */
+#menu-intro {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  margin: 5%;
+}
+#pizza {
+  max-width: 80%;
+}
+
+#menu-description {
+  display: flex;
+  flex-direction: column;
+}
+#menu-description h3 {
+  font-size: 2rem;
+}
+
+.menu-btn {
+  font-size: 1.2rem;
+  color: white;
+  text-decoration: none;
+   text-align: center;
+  background-color: var(--secondary-color);
+  padding: 5px;
+  border-radius: 8px;
+  max-width: 28%;
+}
+.menu-btn:hover {
+  background-color: var(--accent-color);
+}
+
+#cafe-menu {
+  max-width: 90dvw;
+  margin-left: 5dvw;
+  margin-right: 5dvw;
+}
+
+/* opening hours */
+#opening-hours {
+  display: flex;
+  flex-direction: row;
+  color: white;
+}
+#opening-hours h3 {
+  font-size: 2rem;
+}
+#coffee-machine {
+  max-width: 50dvw;
+}
+#hours-flex {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 5%;
+}
+#hours-description {
+  font-weight: 500;
+  font-size: 1.2em;
+}
+/* Footer */
+footer p {
+  font-size: 0.7rem;
+}
+#info {
+  margin: 5%;
+  gap: 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+  margin-left: 20%;
+}
+
+/* contact page */
+
+#contact-section {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  margin: 5%;
+  max-width: 50%;
+}
+#contact-section h2 {
+  font-size: 2rem;
+}
+#map {
+  display: flex;
+  flex-direction: column;
+}
+#map-img {
+  max-width: 40dvw;
+}
+
+#address {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
+#map-pin {
+  max-width: 10%;
+  max-height: 80%;
+}
+#addh6 {
+  margin: 10px;
+  font-size: 1rem;
+}
+#addp {
+  margin: 10px;
+}
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 5%;
+}
+/* contact form */
+
+form input {
+  padding: 5%;
+  width: 25vw;
+  margin-top: 2%;
+  border-radius: 10px;
+}
+form label {
+  margin-top: 2%;
+}
+#message {
+  width: 25vw;
+  height: 100px;
+}
+
+textarea {
+  font-family: "roboto", Arial, Helvetica, sans-serif;
+}
+#send {
+  background-color: var(--secondary-color);
+  font-size: 1rem;
+  color: white;
+  margin: 10px;
+  margin-left: 20px;
+  padding: 15px;
+  border-radius: 10px;
+  width: 25vw;
+  border: none;
+}
+#send:hover {
+  background-color: var(--accent-color);
+}
+
+/* footer */
+footer h5 {
+  font-size: 1rem;
+}
+
+footer h6 {
+  font-size: 0.8rem;
+  margin-top: 18px;
+}
+#pin {
+  max-height: 50px;
+}
+
+#grid {
+  display: grid;
+  grid-template-columns: 5% 20% 20%;
+  grid-template-rows: repeat(2, 30%);
+  column-gap: 10px;
+  row-gap: 30px;
+}
+
+#phone {
+  max-width: 100%;
+  grid-column: 1;
+  grid-row: 1;
+}
+
+#mail {
+  max-width: 100%;
+  grid-column: 1;
+  grid-row: 2;
+}
+
+#conPhone {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+#conEmail {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+#conEmail h6,
+#conEmail p {
+  margin: 0;
+}
+
+#conPhone h6,
+#conPhone p {
+  margin: 0;
+}
+
+#contact-btn {
+  grid-column: 3;
+  grid-row: 1 / 3;
+  align-self: center;
+  justify-self: center;
+}
+
+.btn {
+  color: white;
+  text-decoration: none;
+  background-color: var(--secondary-color);
+  border-radius: 5px;
+  padding: 8px;
+}
+
+.btn:hover {
+  background-color: var(--accent-color);
+}
+
+#footerLogo {
+  max-width: 10%;
+  align-items: center;
+}
