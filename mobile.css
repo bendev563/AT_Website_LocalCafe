@@ -120,6 +120,10 @@
   }
   #contact-form {
     margin-top: 30%;
+    height: 40dvh;
+  }
+  #message {
+    width: 90%;
   }
   #map-pin {
     height: 25%;

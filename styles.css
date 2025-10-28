@@ -68,7 +68,7 @@ nav a {
 }
 
 #hero-content {
-  max-width: 40%;
+  max-width: 35%;
 }
 
 /* Optional: style headings and paragraph */
@@ -179,7 +179,7 @@ nav a {
   font-size: 1.2rem;
   color: white;
   text-decoration: none;
-   text-align: center;
+  text-align: center;
   background-color: var(--secondary-color);
   padding: 5px;
   border-radius: 8px;
@@ -286,7 +286,7 @@ form label {
   margin-top: 2%;
 }
 #message {
-  width: 25vw;
+  width: 28vw;
   height: 100px;
 }
 
