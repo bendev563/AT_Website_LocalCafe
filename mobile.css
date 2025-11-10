@@ -44,7 +44,7 @@
   }
 
   #hero-content p {
-    font-size: 0.6rem;
+    font-size: 0.4rem;
     width: 60dvw;
     padding-left: 0%;
   }
@@ -94,11 +94,13 @@
   #menu-item {
     margin-top: 10%;
   }
+
   #menu-description h3 {
-    font-size: 1.2rem;
+    font-size: 0.8rem;
+    margin: 0;
   }
   #menu-description p {
-    font-size: 0.5rem;
+    font-size: 0.4rem;
   }
   .menu-btn {
     font-size: 0.5rem;
